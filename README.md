@@ -1,45 +1,51 @@
-# 👋 Welcome to A Product
+# 👋 Introduction
+
+## Introduction
+
+The Upsonic is an platform that provide a Cloud Magic Layer to any python runtime. It a base for the datas on the python, like, functions, classes  and variables. With this saving and the platform services you can easily solve the DevOps, productivity and deployment challenges.
 
 {% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
+**These documents are under the beta and you are free to contribute to any section in the GitHub** [**Upsonic Docs**](https://github.com/Upsonic/Docs) **repositories.**
 {% endhint %}
 
-## Overview
+## Connection
 
-Here are a couple of example overviews from products with really great docs:
-
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
-
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
-
-## Quick links
-
-{% content-ref url="overview/what-we-do.md" %}
-[what-we-do.md](overview/what-we-do.md)
+{% content-ref url="connection/installation.md" %}
+[installation.md](connection/installation.md)
 {% endcontent-ref %}
 
-{% content-ref url="overview/our-features.md" %}
-[our-features.md](overview/our-features.md)
+{% content-ref url="connection/connect.md" %}
+[connect.md](connection/connect.md)
 {% endcontent-ref %}
 
-## Get Started
+## Services
 
-We've put together some helpful guides for you to get setup with our product quickly and easily.
-
-{% content-ref url="fundamentals/getting-set-up/" %}
-[getting-set-up](fundamentals/getting-set-up/)
+{% content-ref url="services/upsonic-cloud.md" %}
+[upsonic-cloud.md](services/upsonic-cloud.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
-[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
+Your can save anything in python to **Upsonic Cloud**.
+
+{% content-ref url="services/upsonic-run.md" %}
+[upsonic-run.md](services/upsonic-run.md)
 {% endcontent-ref %}
 
-{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
-[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
+You can run any function or class in **Upsonic Run** runners. It's super fast isolated task-based environment. You can deploy your runner in 5 second in dashboard. Also the runners are automatically connect to your cloud. So you can access every datas in the cloud in runners.
+
+{% content-ref url="services/upsonic-update.md" %}
+[upsonic-update.md](services/upsonic-update.md)
 {% endcontent-ref %}
+
+You can update any running code with **Upsonic Run**. Example, you can edit your cloud Django app in server.
+
+{% content-ref url="services/upsonic-readonly.md" %}
+[upsonic-readonly.md](services/upsonic-readonly.md)
+{% endcontent-ref %}
+
+With **Upsonic Readonly** you can easily distribute the datas to your customers without write permission.
+
+{% content-ref url="services/upsonic-phantom.md" %}
+[upsonic-phantom.md](services/upsonic-phantom.md)
+{% endcontent-ref %}
+
+With Upsonic Phantom you can easily encrypt your functions or any datas and these datas are coming from cloud in every call. So you can distribute your applications without the source code an encrypted running codes.

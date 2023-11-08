@@ -1,4 +1,4 @@
-# 📎 Understanding Projects
+# 📦 Upsonic Phantom
 
 ## How Projects work
 

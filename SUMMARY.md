@@ -1,22 +1,25 @@
 # Table of contents
 
-* [👋 Welcome to A Product](README.md)
+* [👋 Introduction](README.md)
 
-## Overview
+## Connection
 
-* [💡 What we do](overview/what-we-do.md)
-* [✨ Our Features](overview/our-features.md)
+* [💡 Installation](connection/installation.md)
+* [✨ Connect](connection/connect.md)
 
-## Product Guides
+## Services
 
-* [📪 Making a post](product-guides/making-a-post.md)
-* [📎 Understanding Projects](product-guides/understanding-projects.md)
+* [☁ Upsonic Cloud](services/upsonic-cloud.md)
+* [👟 Upsonic Run](services/upsonic-run.md)
+* [🚛 Upsonic Update](services/upsonic-update.md)
+* [🕶 Upsonic Readonly](services/upsonic-readonly.md)
+* [📦 Upsonic Phantom](services/upsonic-phantom.md)
 
-## Fundamentals
+## Others
 
-* [🛠 Getting set up](fundamentals/getting-set-up/README.md)
-  * [📝 Setting permissions](fundamentals/getting-set-up/setting-permissions.md)
-  * [🧑 Inviting Members](fundamentals/getting-set-up/inviting-members.md)
+* [🛠 Getting set up](others/getting-set-up/README.md)
+  * [📝 Setting permissions](others/getting-set-up/setting-permissions.md)
+  * [🧑 Inviting Members](others/getting-set-up/inviting-members.md)
 
 ## Use Cases
 

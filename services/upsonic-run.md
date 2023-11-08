@@ -1,4 +1,4 @@
-# 📪 Making a post
+# 👟 Upsonic Run
 
 ## Step 1 - Start journalling
 
