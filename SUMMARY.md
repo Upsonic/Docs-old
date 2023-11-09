@@ -4,7 +4,6 @@
 
 ## Connection
 
-* [💡 Installation](connection/installation.md)
 * [✨ Connect](connection/connect.md)
 
 ## Services

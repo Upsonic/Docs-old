@@ -10,10 +10,6 @@ The Upsonic is an platform that provide a Cloud Magic Layer to any python runtim
 
 ## Connection
 
-{% content-ref url="connection/installation.md" %}
-[installation.md](connection/installation.md)
-{% endcontent-ref %}
-
 {% content-ref url="connection/connect.md" %}
 [connect.md](connection/connect.md)
 {% endcontent-ref %}
