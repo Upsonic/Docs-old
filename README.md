@@ -16,8 +16,8 @@ The Upsonic is an platform that provide a Cloud Magic Layer to any python runtim
 
 ## Services
 
-{% content-ref url="services/upsonic-cloud.md" %}
-[upsonic-cloud.md](services/upsonic-cloud.md)
+{% content-ref url="services/upsonic-cloud/" %}
+[upsonic-cloud](services/upsonic-cloud/)
 {% endcontent-ref %}
 
 Your can save anything in python to **Upsonic Cloud**.
