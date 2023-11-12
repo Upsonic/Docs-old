@@ -1,6 +1,8 @@
 # Table of contents
 
-* [👋 Introduction](README.md)
+## Introduction
+
+* [👋 Welcome](README.md)
 
 ## Connection
 
@@ -8,13 +10,7 @@
 
 ## Services
 
-* [☁ Upsonic Cloud](services/upsonic-cloud/README.md)
-  * [⬆ Save & Get](services/upsonic-cloud/save-and-get/README.md)
-    * [Function](services/upsonic-cloud/save-and-get/function.md)
-    * [Class](services/upsonic-cloud/save-and-get/class.md)
-    * [Object](services/upsonic-cloud/save-and-get/object.md)
-    * [Variable](services/upsonic-cloud/save-and-get/variable.md)
-  * [⬇ Get](services/upsonic-cloud/get.md)
+* [☁ Upsonic Cloud](services/upsonic-cloud.md)
 * [👟 Upsonic Run](services/upsonic-run.md)
 * [🚛 Upsonic Update](services/upsonic-update.md)
 * [🕶 Upsonic Readonly](services/upsonic-readonly.md)

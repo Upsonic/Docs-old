@@ -1,4 +1,4 @@
-# 👋 Introduction
+# 👋 Welcome
 
 ## Introduction
 
@@ -10,14 +10,14 @@ The Upsonic is an platform that provide a Cloud Magic Layer to any python runtim
 
 ## Connection
 
-{% content-ref url="connection/connect.md" %}
-[connect.md](connection/connect.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Services
 
-{% content-ref url="services/upsonic-cloud/" %}
-[upsonic-cloud](services/upsonic-cloud/)
+{% content-ref url="services/upsonic-cloud.md" %}
+[upsonic-cloud.md](services/upsonic-cloud.md)
 {% endcontent-ref %}
 
 Your can save anything in python to **Upsonic Cloud**.
