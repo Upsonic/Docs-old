@@ -47,7 +47,7 @@ def my_awesome_function():
 
 </code></pre>
 
-Now you don't need to cloud.set . You just need to run these script and its will automaticaly save with <mark style="color:blue;">"my\_awesome\_function"</mark> key to cloud.
+Now you don't need to cloud.set . You just need to run this script and its will automaticaly save with <mark style="color:blue;">"my\_awesome\_function"</mark> key to cloud.
 
 </details>
 
@@ -66,6 +66,8 @@ from upsonic import requires
 @requires("flask")
 @requires("django==4.2.6")
 def my_awesome_function():
+    import flask
+    import django
     print("Hello world")
 
 ```
@@ -92,5 +94,131 @@ def my_awesome_function():
 
 
 
+### Class
+
+```python
+
+class my_class:
+    def __init__(self, age):
+        self.age = age
+        
+cloud.set("my_class", my_class)
+
+```
+
+With this code you can easily set `my_class` to <mark style="color:blue;">"my\_class"</mark> key.
+
+#### Decorators
+
+<details>
+
+<summary><mark style="color:blue;"><code>@cloud.active</code></mark> Fast cloud.set that automaticaly retrive the name of class</summary>
+
+With this decorator you don't need to use `cloud.set` its an shortcut for saving functions to cloud.
 
 
+
+<pre class="language-python"><code class="lang-python"><strong>
+</strong>@cloud.active
+class my_class:
+    def __init__(self, age):
+        self.age = age
+
+</code></pre>
+
+Now you don't need to cloud.set . You just need to run this script and its will automaticaly save with <mark style="color:blue;">"my\_class"</mark> key to cloud.
+
+</details>
+
+***
+
+<details>
+
+<summary><mark style="color:purple;"><code>@requires("flask")</code></mark> Add an requirement and install automaticaly</summary>
+
+It's automaticaly check the flask installation and if its not exist the system its automaticaly install via pip when the class calls.
+
+```python
+from upsonic import requires
+
+@cloud.active
+@requires("flask")
+@requires("django==4.2.6")
+class my_class:
+    def __init__(self, age):
+        import flask
+        import django
+        self.age = age
+```
+
+</details>
+
+
+
+### Object
+
+```python
+
+class my_class:
+    def __init__(self, age):
+        self.age = age
+  
+my_object = my_class(15) 
+        
+cloud.set("my_object", my_object)
+
+```
+
+With this code you can easily set `my_object` to <mark style="color:blue;">"my\_object"</mark> key.
+
+### Variable
+
+```python
+my_string = "Hello"
+my_integer = 13412
+my_float = 1234.15
+
+my_dictionary {"hello":"world"}
+my_list = [my_string, mr_integer, my_float, my_dictionary]
+my_tuple = (my_dictionary, my_list)
+
+
+cloud.set("my_tuple", my_tuple)
+
+```
+
+With this code you can easily set `my_tuple` to <mark style="color:blue;">"my\_tuple"</mark> key.
+
+
+
+
+
+
+
+## Get
+
+In getting we have a <mark style="color:blue;">`cloud.get`</mark> function and you can retrive anything in the cloud with this.
+
+```python
+cloud.get("my_awesome_function")()
+cloud.get("my_class")(15)
+cloud.get("my_tuple")
+```
+
+
+
+
+
+## Encryption
+
+You can easily encrypt your datas before to send Upsonic Cloud. With this way no body will able to read your datas. for this you should use an <mark style="color:purple;">string</mark> via <mark style="color:blue;">`encryption_key`</mark> parameter in `cloud.set` and `cloud.get` and `cloud.active`.
+
+```python
+cloud.set("key", "value", encryption_key="YOUR_ENCRYPTION_KEY")
+
+cloud.get("key", encryption_key="YOUR_ENCRYPTION_KEY")
+
+@cloud.active(encryption_key="YOUR_ENCRYPTION_KEY")
+def a_function():
+    pass
+```
