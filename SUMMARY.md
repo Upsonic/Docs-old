@@ -9,12 +9,12 @@
 ## Services
 
 * [☁ Upsonic Cloud](services/upsonic-cloud/README.md)
-  * [Save](services/upsonic-cloud/save/README.md)
-    * [Function](services/upsonic-cloud/save/function.md)
-    * [Class](services/upsonic-cloud/save/class.md)
-    * [Object](services/upsonic-cloud/save/object.md)
-    * [Variable](services/upsonic-cloud/save/variable.md)
-  * [Get](services/upsonic-cloud/get.md)
+  * [⬆ Save & Get](services/upsonic-cloud/save-and-get/README.md)
+    * [Function](services/upsonic-cloud/save-and-get/function.md)
+    * [Class](services/upsonic-cloud/save-and-get/class.md)
+    * [Object](services/upsonic-cloud/save-and-get/object.md)
+    * [Variable](services/upsonic-cloud/save-and-get/variable.md)
+  * [⬇ Get](services/upsonic-cloud/get.md)
 * [👟 Upsonic Run](services/upsonic-run.md)
 * [🚛 Upsonic Update](services/upsonic-update.md)
 * [🕶 Upsonic Readonly](services/upsonic-readonly.md)
