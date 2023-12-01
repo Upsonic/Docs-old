@@ -4,6 +4,9 @@ You can easily set your database and access key via environment variables that p
 
 {% code title="my_app/.env" %}
 ```
+type="" # free or pro or premium or startup
+client_id="" #Any uniq name for client like bob
+
 database_Free="DB_database_***"
 access_key_Free="ACK_***"
 

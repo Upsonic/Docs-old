@@ -8,21 +8,21 @@ You can use some commands from CLI for Upsonic. CLI is integrated with `.env` va
 
 {% tabs %}
 {% tab title="ENV Variables" %}
-{% code title=".env" %}
-```
-database_Free="DB_database_***"
-access_key_Free="ACK_***"
-```
-{% endcode %}
+<pre data-title=".env"><code><strong>type="free"
+</strong><strong>client_id=""
+</strong><strong>
+</strong><strong>database_Free="DB_database_***"
+</strong>access_key_Free="ACK_***"
+</code></pre>
 
 ```bash
-upsonic --type free
+upsonic --help
 ```
 {% endtab %}
 
 {% tab title="Directly with Args" %}
 ```bash
-upsonic --type free --database_name "DB_database_***" --access_key "ACK_***"
+upsonic --client_id "" --type free --database_name "DB_database_***" --access_key "ACK_***"
 ```
 {% endtab %}
 {% endtabs %}
