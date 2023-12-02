@@ -22,6 +22,9 @@ access_key_Startup="ACK_***"
 
 locking=False
 
+cache=False # If its set as True the system will be a backup and low bandwith req.
+cache_counter=100 # Wait for 100 call for checking new version and gathering
+
 ```
 {% endcode %}
 

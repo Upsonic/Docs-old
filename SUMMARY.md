@@ -14,6 +14,7 @@
   * [ENV Variables - New](services/upsonic-cloud/env-variables-new.md)
   * [CLI - New](services/upsonic-cloud/cli-new.md)
   * [Features](services/upsonic-cloud/features/README.md)
+    * [Caching: Backup for Your Systems - New](services/upsonic-cloud/features/caching-backup-for-your-systems-new.md)
     * [Locking: Best for Multidevs - New](services/upsonic-cloud/features/locking-best-for-multidevs-new.md)
 * [👟 Upsonic Run](services/upsonic-run.md)
 * [🚛 Upsonic Update](services/upsonic-update.md)
