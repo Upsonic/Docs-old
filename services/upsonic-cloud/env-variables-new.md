@@ -7,18 +7,9 @@ You can easily set your database and access key via environment variables that p
 type="" # free or pro or premium or startup
 client_id="" #Any uniq name for client like bob
 
-database_Free="DB_database_***"
-access_key_Free="ACK_***"
+database_key="DB_database_***"
+access_key="ACK_***"
 
-database_Pro="DB_database_***"
-access_key_Pro="ACK_***"
-
-database_Premium="DB_database_***"
-access_key_Premium="ACK_***"
-
-
-database_Startup="DB_database_***"
-access_key_Startup="ACK_***"
 
 locking=False
 

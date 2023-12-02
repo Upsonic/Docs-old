@@ -11,8 +11,8 @@ You can use some commands from CLI for Upsonic. CLI is integrated with `.env` va
 <pre data-title=".env"><code><strong>type="free"
 </strong><strong>client_id=""
 </strong><strong>
-</strong><strong>database_Free="DB_database_***"
-</strong>access_key_Free="ACK_***"
+</strong>database_key="DB_database_***"
+access_key="ACK_***"
 </code></pre>
 
 ```bash
