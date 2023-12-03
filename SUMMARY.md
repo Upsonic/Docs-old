@@ -16,6 +16,7 @@
   * [Features](services/upsonic-cloud/features/README.md)
     * [Caching: Backup for Your Systems - New](services/upsonic-cloud/features/caching-backup-for-your-systems-new.md)
     * [Locking: Best for Multidevs - New](services/upsonic-cloud/features/locking-best-for-multidevs-new.md)
+    * [Version Control: Set your app version to your systems and make rollbacks in seconds](services/upsonic-cloud/features/version-control-set-your-app-version-to-your-systems-and-make-rollbacks-in-seconds.md)
 * [👟 Upsonic Run](services/upsonic-run.md)
 * [🚛 Upsonic Update](services/upsonic-update.md)
 * [🕶 Upsonic Readonly](services/upsonic-readonly.md)
