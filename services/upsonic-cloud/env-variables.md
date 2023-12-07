@@ -1,4 +1,4 @@
-# ENV Variables - New
+# ENV Variables
 
 You can easily set your database and access key via environment variables that placed on `.env` file.
 
@@ -16,6 +16,11 @@ locking=False
 cache=False # If its set as True the system will be a backup and low bandwith req.
 cache_counter=100 # Wait for 100 call for checking new version and gathering
 
+
+version=True
+client_version=True
+
+key_encyption=True
 ```
 {% endcode %}
 
