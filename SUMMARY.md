@@ -18,6 +18,7 @@
     * [Locking: Best for Multidevs](services/upsonic-cloud/features/locking-best-for-multidevs.md)
     * [Version Control: Release and Deploy in Seconds](services/upsonic-cloud/features/version-control-release-and-deploy-in-seconds.md)
     * [Enabling Key Encryption: Fully Secure System](services/upsonic-cloud/features/enabling-key-encryption-fully-secure-system.md)
+  * [update.py: All is your need](services/upsonic-cloud/update.py-all-is-your-need.md)
 * [👟 Upsonic Run](services/upsonic-run.md)
 * [🚛 Upsonic Update](services/upsonic-update.md)
 * [🕶 Upsonic Readonly](services/upsonic-readonly.md)

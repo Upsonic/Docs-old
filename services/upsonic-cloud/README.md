@@ -193,9 +193,18 @@ With this code you can easily set `my_tuple` to <mark style="color:blue;">"my\_t
 
 
 
+### Module
 
+```python
+import random
 
+cloud.active_module(random)
 
+cloud. Get("random.Random")().random() # == random.random()
+
+```
+
+With this way you can easily make accessible your modules in Upsonic Cloud. Example of the set keys is <mark style="color:blue;">"random.Random"</mark> .
 
 ## Get
 
