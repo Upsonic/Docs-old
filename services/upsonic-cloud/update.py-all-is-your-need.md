@@ -41,7 +41,9 @@ from .algorithms import *
 from upsonic import Upsonic_Cloud_Free
 cloud = Upsonic_Cloud_Free(cache=False)
 from upsonic_update import Upsonic_Update
-update = Upsonic_Update(cloud, pre_update_all=True, clear_olds=True)
+update = Upsonic_Update(cloud, pre_update_all=True) 
+# clear_olds=True If you are not using as cloud database
+# or pre_update_all_exclude=[] for protecting your database keys
 # --------- DONT CONFIGURE ABOVE THIS LINE ---------
 
 
@@ -97,13 +99,15 @@ In this way you can easily set some functions to your cloud and get by the full 
 from upsonic import Upsonic_Cloud_Free
 cloud = Upsonic_Cloud_Free(cache=False)
 from upsonic_update import Upsonic_Update
-update = Upsonic_Update(cloud, pre_update_all=True, clear_olds=True)
+update = Upsonic_Update(cloud, pre_update_all=True) 
+# clear_olds=True If you are not using as cloud database
+# or pre_update_all_exclude=[] for protecting your database keys
 # --------- DONT CONFIGURE ABOVE THIS LINE ---------
 
 
 import src
 
-cloud.active(src.algorithms.my_algorithm)
+cloud. Active(src.algorithms.my_algorithm)
 
 
 # --------- DONT CONFIGURE BELOW THIS LINE ---------
